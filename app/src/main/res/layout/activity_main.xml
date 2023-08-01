@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:text="3/3"
-        android:textSize="15dp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="66dp" />
 
@@ -23,6 +23,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="96dp"
         android:text="참여자 님이 원하는 장소를\n등록해주세요"
+        android:textColor="#000000"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +37,8 @@
         android:text="장소 입력"
         android:textColor="#000000"
         android:textColorLink="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/buttonround"
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="267dp" />
 
@@ -44,9 +47,13 @@
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginBottom="50dp"
+        android:background="@drawable/buttonround"
         android:backgroundTint="#1463fc"
+        android:gravity="center"
         android:text="등록하기"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="46dp" />
 
